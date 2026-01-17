@@ -1,75 +1,75 @@
 name: Text2SQL
-description: "Build a Chat application to ask questions about your SQL database"
-author: "Maveric"
-date: "2025-25-02"
+description: "your_project_description"
+author: "your_name"
+date: "2026-01-17"
 specification_version: 1.0
 prototype_version: 1.0
 
 environment_variables:
     # Added environment variables for Text-to-SQL models and database credentials
     OPENAI_CHAT_MODEL:
-        default: "gpt-4o-mini"
+        default: "your_model_name"
         description: "OpenAI Chat Model to use for text-to-SQL conversion."
         required: true
 
     HR_USER:
-        default: "HR"
-        description: "HR database username."
+        default: "your_username"
+        description: "database username."
         required: true
     HR_PASSWORD:
-        default: "HR"
-        description: "HR database password."
+        default: "your_password"
+        description: "database password."
         required: true
     HR_DSN:
-        default: "192.168.59.11/XEPDB1"
-        description: "HR database DSN."
+        default: "your_db_host:1521/your_db_name"
+        description: "DB DSN."
         required: true
 
     BANK_USER:
-        default: "BANKING_DB1"
-        description: "Banking database username."
+        default: "your_username"
+        description: "database username."
         required: true
     BANK_PASSWORD:
-        default: "sql123"
-        description: "Banking database password."
+        default: "your_password"
+        description: "database password."
         required: true
     BANK_DSN:
-        default: "192.168.59.11/XEPDB1"
-        description: "Banking database DSN."
+        default: "your_db_host:1521/your_db_name"
+        description: "database DSN."
         required: true
 
     MUSIC_USER:
-        default: "MUSIC_DB1"
-        description: "Music database username."
+        default: "your_username"
+        description: "database username."
         required: true
     MUSIC_PASSWORD:
-        default: "music_db1"
-        description: "Music database password."
+        default: "your_password"
+        description: "database password."
         required: true
     MUSIC_DSN:
-        default: "192.168.59.11/XEPDB1"
-        description: "Music database DSN."
+        default: "your_db_host:1521/your_db_name"
+        description: "database DSN."
         required: true
 
     WATERFALL_USER:
-        default: "TEXT2SQLWATERFALL"
-        description: "Waterfall database username."
+        default: "your_username"
+        description: "database username."
         required: true
     WATERFALL_PASSWORD:
-        default: "sql123"
-        description: "Waterfall database password."
+        default: "your_password"
+        description: "database password."
         required: true
     WATERFALL_DSN:
-        default: "192.168.59.11/XEPDB1"
-        description: "Waterfall database DSN."
+        default: "your_db_host:1521/your_db_name"
+        description: "database DSN."
         required: true
 
     CHUNK_SIZE:
-        default: "1024"
+        default: "your_chunk_size"
         description: "Chunk size for document processing."
         required: false
     CHUNK_OVERLAP:
-        default: "64"
+        default: "your_overlap_size"
         description: "Chunk overlap for document processing."
         required: false
 

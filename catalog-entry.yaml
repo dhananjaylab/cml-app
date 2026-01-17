@@ -1,23 +1,60 @@
 name: Text2SQL
 
 entries:
-  - title: Text2SQL
+  - title: Text2SQL - Natural Language to SQL Converter
     label: cml-app
     short_description: |
-        Short description of what the AMP does.
+      Convert natural language questions into SQL queries using OpenAI GPT-4o-mini. 
+      Features FastAPI backend, Streamlit frontend, and FAISS vector search for semantic understanding.
     long_description: |
-        Long description of what the AMP does.
+      Text2SQL is a full-stack application that leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) 
+      architecture to intelligently convert natural language questions into executable SQL commands.
+      
+      Key Capabilities:
+      - Natural Language Processing with OpenAI GPT-4o-mini
+      - Multi-database support (HR, Banking, Music, Waterfall)
+      - FastAPI RESTful backend for high performance
+      - Streamlit interactive UI for seamless user experience
+      - FAISS vector search for semantic query understanding
+      - Oracle Database integration with real-time query execution
+      - Error handling and query validation
+      
+      Perfect for democratizing database access, reducing SQL learning curves, and improving data accessibility 
+      across organizations. Ideal for business analysts, non-technical users, and data teams.
     long_description_html: |
-        Long description of what the AMP does.
+      <h2>Text2SQL - Natural Language to SQL Converter</h2>
+      <p>Convert natural language questions into SQL queries using OpenAI GPT-4o-mini LLM with RAG architecture.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li>💬 Natural Language Processing - Ask questions in plain English</li>
+        <li>🗄️ Multi-Database Support - HR, Banking, Music, Waterfall schemas</li>
+        <li>⚡ FastAPI Backend - High-performance RESTful API</li>
+        <li>🎨 Streamlit Frontend - Intuitive interactive chat interface</li>
+        <li>🔍 FAISS Vector Search - Semantic query understanding</li>
+        <li>🎯 Smart SQL Generation - Accurate query creation with validation</li>
+        <li>📊 Real-time Execution - Execute queries and view results instantly</li>
+      </ul>
+      <h3>Tech Stack:</h3>
+      <p>Python 3.10+ | FastAPI | Streamlit | OpenAI GPT-4o-mini | FAISS | Oracle Database | SQLAlchemy | Pandas</p>
     image_path: >-
-      https://raw.githubusercontent.com/githubusername/githubrepo/main/path/to/amp/cover.png
+      https://raw.githubusercontent.com/dhananjaylab/cml-app/main/images/cover.png
     tags:
-      - Sample
-      - Tags
-      - Used
-      - As
-      - Identifiers
-    git_url: 'https://github.com/Dhananjay-97/cml-app'
-    is_prototype: true
+      - LLM
+      - Text-to-SQL
+      - SQL-Generation
+      - FastAPI
+      - Streamlit
+      - RAG
+      - OpenAI
+      - GPT-4
+      - Vector-Search
+      - FAISS
+      - Natural-Language-Processing
+      - AI
+      - Database
+      - Python
+      - Full-Stack
+    git_url: 'https://github.com/dhananjaylab/cml-app'
+    is_prototype: false
     is_community: true
-    is_new: true
+    is_new: false
